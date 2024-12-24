@@ -1,0 +1,112 @@
+.assets-container {
+    margin-top: 2rem;
+  }
+  
+  .assets-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 2rem;
+  }
+  
+  .assets-title {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+  }
+  
+  .asset-count {
+    background-color: var(--secondary-color);
+    color: white;
+    padding: 0.25rem 0.75rem;
+    border-radius: 9999px;
+    font-size: 0.875rem;
+  }
+  
+  .asset-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    gap: 1.5rem;
+  }
+  
+  .asset-card {
+    background: white;
+    border-radius: 8px;
+    padding: 1rem;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .asset-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 1rem;
+  }
+  
+  .asset-type {
+    background: #e2e8f0;
+    padding: 0.25rem 0.5rem;
+    border-radius: 4px;
+    font-size: 0.875rem;
+  }
+  
+  .asset-body {
+    margin-bottom: 1rem;
+  }
+  
+  .password-field {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+  }
+  
+  .toggle-password {
+    background: none;
+    border: none;
+    padding: 0.25rem;
+    cursor: pointer;
+  }
+  
+  .toggle-password img {
+    width: 1.25rem;
+    height: 1.25rem;
+  }
+  
+  .asset-actions {
+    display: flex;
+    gap: 0.5rem;
+  }
+  
+  .asset-actions button {
+    display: flex;
+    align-items: center;
+    gap: 0.25rem;
+    padding: 0.5rem;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .asset-actions button img {
+    width: 1rem;
+    height: 1rem;
+  }
+  
+  .edit-form {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+  }
+  
+  .edit-form input,
+  .edit-form textarea {
+    padding: 0.5rem;
+    border: 1px solid #e2e8f0;
+    border-radius: 4px;
+  }
+  
+  .edit-actions {
+    display: flex;
+    gap: 0.5rem;
+    justify-content: flex-end;
+  }

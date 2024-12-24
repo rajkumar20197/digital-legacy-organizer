@@ -1,0 +1,55 @@
+.contacts-section {
+    max-width: 800px;
+    margin: 2rem auto;
+  }
+  
+  .contacts-list {
+    display: grid;
+    gap: 1rem;
+    margin: 2rem 0;
+  }
+  
+  .contact-card {
+    background: white;
+    border-radius: 0.5rem;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+    padding: 1.5rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .contact-info h3 {
+    margin: 0;
+    color: var(--primary-color);
+  }
+  
+  .contact-info p {
+    margin: 0.25rem 0;
+    color: #4a5568;
+  }
+  
+  .relationship {
+    font-size: 0.875rem;
+    color: #718096;
+  }
+  
+  .add-contact-form {
+    background: white;
+    padding: 2rem;
+    border-radius: 0.5rem;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+  }
+  
+  .remove-contact {
+    background-color: var(--error-color);
+    color: white;
+    border: none;
+    padding: 0.5rem 1rem;
+    border-radius: 0.375rem;
+    cursor: pointer;
+  }
+  
+  .remove-contact:hover {
+    opacity: 0.9;
+  }
